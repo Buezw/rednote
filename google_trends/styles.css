@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .infographic-container {
+    width: 800px;
+    max-width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+  }
+  
+  .infographic-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .infographic-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .infographic-header .date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* 内容区每条资讯的样式 */
+  .info-item {
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .info-item:last-child {
+    border-bottom: none;
+  }
+  
+  .info-item h2 {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  
+  .info-item p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* 底部来源 */
+  .infographic-footer {
+    margin-top: 15px;
+    text-align: right;
+    color: #999;
+    font-size: 12px;
+  }
+  .highlight {
+    color: red;
+    font-weight: bold;
+  }
+  body {
+    color: cornflowerblue; /* 设置默认文本颜色为藏青色 */
+  }

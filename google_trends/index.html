@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>资讯信息图示例</title>
+  <!-- 引用外部CSS文件 -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 图片插入位置 -->
+  
+
+  <div class="infographic-container">
+    <div class="infographic-header">
+      <h1 id="infographic-title">今天外网发生了什么</h1>
+      <div class="date" id="infographic-date">{{date}}</div>
+    </div>
+    <div class="header-image">
+      <img src="header.png" alt="标题图片" style="width:740px; height:493px;">
+    </div>
+
+    <!-- 每条资讯/要点 -->
+    <div class="info-item" style="line-height: 1.6;">
+      <h2 id="info-title-1">1、{{title1}}</h2>
+    </div>
+
+    <!-- ...更多要点... -->
+
+    <!-- 结尾/来源等信息 -->
+    <!-- <div class="infographic-footer">
+      <p>来源：{{sourceInfo}}</p>
+    </div> -->
+  </div>
+</body>
+</html>
