@@ -2,6 +2,9 @@ from playwright.sync_api import sync_playwright
 import os
 from google_trends.replace import replace
 from rednote_publisher import publish
+
+
+
 def take_screenshot_of_html(html_path, output_image):
     with sync_playwright() as p:
         # 启动浏览器

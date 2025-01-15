@@ -19,6 +19,7 @@ def publish(img_path,title,body):
         page.locator(file_input_xpath).click()
         upload_address = 'xpath=/html/body/div[1]/div/div[2]/div/div[2]/main/div[3]/div/div/div[1]/div/div/div/div[2]/div[1]/div/input'
         page.locator(upload_address).set_input_files(img_path)
+        page.locator('xpath=/html/body/div[1]/div/div[2]/div/div[2]/main/div[3]/div/div/div[1]/div/div/div/div/div[1]/div[1]/div[4]/div[1]/div/input').fill('今天外网发生了什么 ')
         page.locator('xpath=/html/body/div[1]/div/div[2]/div/div[2]/main/div[3]/div/div/div[1]/div/div/div/div/div[1]/div[1]/div[4]/div[1]/div/input').fill(title)
         #/html/body/div[1]/div/div[2]/div/div[2]/main/div[3]/div/div/div[1]/div/div/div/div/div[1]/div[1]/div[5]/div/div/div[1]/div
         tag_input = 'xpath=/html/body/div[1]/div/div[2]/div/div[2]/main/div[3]/div/div/div[1]/div/div/div/div/div[1]/div[1]/div[5]/div/div/div[1]/div'
